@@ -1,0 +1,94 @@
+main {
+	min-height: 80vh;
+}
+
+@media screen and (max-width: 600px) {
+	#basic-navbar-nav {
+		width: 100%;
+		margin-top: 10px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#basic-navbar-nav form input {
+		margin-top: 10px;
+		width: 100%;
+		margin-left: 48px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#basic-navbar-nav form button {
+		margin-top: 10px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.navbar-nav {
+		flex-direction: row;
+		padding-left: 0;
+		justify-content: center;
+		margin-top: 7px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#basic-navbar-nav {
+		width: 100%;
+		margin-top: 10px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#basic-navbar-nav form input {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#basic-navbar-nav form button {
+		margin-top: 10px;
+		width: 80%;
+		margin-left: 48px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.navbar-nav {
+		flex-direction: row;
+		padding-left: 0;
+		justify-content: center;
+		margin-top: 7px;
+	}
+}
+
+.displayLinebreak {
+	white-space: pre-line;
+}
+
+.bottomRight {
+	position: fixed;
+	bottom: 30px;
+	right: 40px;
+}
+
+a {
+	color: #2b3e50;
+}
+
+a:hover {
+	color: #f47b71;
+}
+
+.brandLink:hover {
+	text-decoration: none;
+}
+
+.navIcon {
+	color: #2b3e50;
+}
+
+.navIcon:hover {
+	color: #f47b71;
+}
